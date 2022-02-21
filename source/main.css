@@ -1,0 +1,179 @@
+/* Body design*/
+body{
+    background-color: #242931;
+    min-height:600px;
+    min-width:500px;
+    
+}
+#Main{
+    margin-top: 5%;
+}
+#End{
+    border-top:  0.1mm solid grey;
+    height:6%;
+    position: fixed;
+    bottom: 5;
+    right: 0;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+#Header{
+    width:100%;
+    height:5%;
+    border-color: white;
+    border:2px;
+}
+#searchBar{
+    width:90%;
+    height:100%;
+    background-color: transparent;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:  0.1mm solid grey;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#addBar{
+    width:90%;
+    height:100%; 
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+#addButton{
+    
+   
+background-color:transparent;
+border-color: transparent;
+}
+#searchButton{
+
+    height:100%;
+background-color:transparent;
+border-color: transparent;
+}
+.copied { 
+    display: grid ;
+    min-height:6%;
+    min-width:90%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+    background-color: transparent;
+    grid-template-columns: 90% 3% 3%;
+  }
+  .copiedtext{
+    grid-column-start: 0;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2%;
+  }
+
+  .removebutton{
+    grid-row-start: 0;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  
+    width: 100%;
+    background-color:transparent;
+    border-color: transparent;
+  }
+  
+  .editbutton{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 0;
+    grid-row-end: 1;
+    background-color:transparent;
+    border-color: transparent;
+  }
+
+
+
+
+
+
+
+/* Cards design*/
+.SocialCard { 
+    margin-top:5%;
+    margin-right: auto;
+    margin-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom:3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 5px rounded corners */
+    background-color: #c0e4ce;
+   
+  }
+
+.linkCards{
+    display: inline-block;
+    height: 13%;
+    width: 13%; 
+    padding-left: 0.5%;
+    margin-left: 4%;
+  }
+
+ /* Image design*/
+#AstroImage{
+    display: inline-block;
+    height: 70%;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#socialImage{
+    height: 100%;
+    width: 100%; 
+}
+
+
+
+/* Headers design*/
+#AstroHeader,#SocialHeader,#careerHeader,#SummaryHeader{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100%;
+    }
+#SummaryHeader{
+    color:white;
+    font-size: 120%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    }
+/* Text design*/
+#summary{
+   font-family: 'Dongle', sans-serif;
+    font-size: 100%;
+    margin-left:10%;
+    margin-right:10%;
+    }
+
+#footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    margin-left:20%;
+   
+          }
+
+
